@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "booksbot"
+version = "0.1.0"
+description = ""
+authors = ["AsaK <asakbjj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+shub = "^2.14.3"
+guppy= "^0.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

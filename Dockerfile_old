@@ -1,0 +1,5 @@
+FROM scrapinghub/scrapinghub-stack-scrapy:latest
+WORKDIR /app
+COPY . /app
+
+ENTRYPOINT ["scrapy", "runspider", "books/spiders/books.py", "-o", "books.json", "-t", "jsonlines"]
